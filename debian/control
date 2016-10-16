@@ -1,0 +1,22 @@
+Source: kodi-pvr-sevensky
+Priority: extra
+Maintainer: Sergey S. Gogin <sppps@sppps.ru>
+Build-Depends: debhelper (>= 9.0.0), cmake, libtinyxml-dev, kodi-pvr-dev,
+               libkodiplatform-dev (>= 16.0.0), kodi-addon-dev
+Standards-Version: 3.9.2
+Section: libs
+
+Package: kodi-pvr-sevensky
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: SevenSky TV PVR client for Kodi
+ SevenSky TV PVR client for Kodi
+
+Package: kodi-pvr-sevensky-dbg
+Section: debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: debug symbols for SevenSky TV PVR client for Kodi
+ debug symbols for SevenSky TV PVR client for Kodi
+

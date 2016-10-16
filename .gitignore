@@ -1,0 +1,23 @@
+# build artifacts
+build/
+debian/changelog
+debian/files
+debian/kodi-pvr-sevensky-dbg.debhelper.log
+debian/kodi-pvr-sevensky-dbg.substvars
+debian/kodi-pvr-sevensky-dbg/
+debian/kodi-pvr-sevensky.debhelper.log
+debian/kodi-pvr-sevensky.postinst.debhelper
+debian/kodi-pvr-sevensky.postrm.debhelper
+debian/kodi-pvr-sevensky.substvars
+debian/kodi-pvr-sevensky/
+debian/tmp/
+obj-x86_64-linux-gnu/
+pvr.sevensky/addon.xml
+
+# clion
+.idea/
+
+# Eclipse/CDT
+.cproject
+.project
+.settings/
