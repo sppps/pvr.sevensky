@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="pvr.sevensky"
+  version="1.0.0"
+  name="SevenSky TV PVR Client"
+  provider-name="Sergey S. Gogin">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="1.9.6"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_linux="pvr.sevensky.so"
+    library_osx="pvr.sevensky.dylib"
+    library_freebsd="pvr.sevensky.so"
+    library_windx="pvr.sevensky.dll"
+    library_android="libpvr.sevensky.so" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">SevenSky TV PVR Client</summary>
+    <summary lang="en_US">SevenSky TV PVR Client</summary>
+    <summary lang="ru_RU">PVR клиент SevenSky TV</summary>
+    <description lang="en_GB">SevenSky TV PVR Client</description>
+    <description lang="en_US">SevenSky TV PVR Client</description>
+    <description lang="ru_RU">PVR клиент SevenSky TV</description>
+    <platform>all</platform>
+  </extension>
+</addon>

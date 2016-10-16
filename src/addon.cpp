@@ -152,14 +152,12 @@ const char *GetBackendName(void)
 
 const char *GetBackendVersion(void)
 {
-  static CStdString strBackendVersion = "0.1";
-  return strBackendVersion.c_str();
+  return "0.1";
 }
 
 const char *GetConnectionString(void)
 {
-  static CStdString strConnectionString = "connected";
-  return strConnectionString.c_str();
+  return "connected";
 }
 
 const char *GetBackendHostname(void)
